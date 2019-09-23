@@ -1,0 +1,165 @@
+.btn_op {
+  min-width: 80px;
+  max-width: 150px;
+  cursor: pointer;
+}
+
+.boton-res {
+  cursor: pointer;
+  padding-top: 0.2em !important;
+  padding-bottom: 0.2em !important;
+  background-color: #0a999a;
+  color: #ffffff;
+  font-size: calc(.3em + 1vw);
+  border-radius: 0.5em;
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contenedor-emma {
+  position: absolute;
+  bottom: -20px;
+  width: 25%;
+  left: 3%;
+}
+
+#contenedor-detalles {
+  padding-top: 15px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+#cont-info-detalles {
+  margin-left: 24%;
+}
+
+#contenedor-opciones {
+  margin-top: 1em;
+  padding-top: 15px;
+}
+
+#contenido-res {
+  color: #c83b8d;
+  font-size: 2.5em;
+  font-weight: bolder;
+}
+
+#contenedor-resultado {
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+#detalle-res {
+  margin-bottom: 1.5em;
+}
+
+#img-emma {
+  width: 100%;
+}
+
+.info-reiniciar {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 20em;
+  background: #c83b8d;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 1em;
+  z-index: auto;
+}
+
+.info-reiniciar i {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+}
+
+.info-reiniciar a {
+  margin-top: 0.5em;
+  padding: 0.5em 1.5em;
+  border-radius: 0.3em;
+  background-color: #804b6a;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.info-reiniciar a:hover {
+  background-color: #ff96d3;
+}
+
+.label-res {
+  font-size: 0.5em;
+  font-weight: 100;
+}
+
+.row-resultado {
+  margin-bottom: 0px !important;
+}
+
+#subtitulo-res {
+  margin-top: 0.1rem;
+  font-size: 1.3em;
+  color: #0f9b9b;
+}
+
+table {
+  border-collapse: separate !important;
+  border-spacing: 5px 0 !important;
+}
+
+td {
+  font-weight: bold;
+}
+
+th {
+  color: #ffffff;
+  background-color: #0f9b9b;
+}
+
+#titulo-detalle {
+  color: #0f9b9b;
+  font-size: 2.4em;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+#titulo-res {
+  color: #0f9b9b;
+  font-size: 2.5em;
+  font-weight: bolder;
+  margin-bottom: 0.3rem;
+}
+
+@media (max-width: 600px){
+  #cont-info-detalles {
+    margin-left: 0;
+  }
+  .boton-res{
+    font-size: 1.16em;
+  }
+  #contenedor-emma{
+    bottom: unset;
+    top: 3.8%;
+    width: 26%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1000px){
+  #contenedor-emma{
+    left: 0;
+  }
+  .boton-res{
+    font-size: 1.16em;
+  }
+}
+
+@media (min-width: 993px){
+  #cont-info-detalles {
+    margin-left: 30%;
+  }
+}

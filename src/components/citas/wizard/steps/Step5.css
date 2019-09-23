@@ -1,0 +1,76 @@
+
+
+#step5 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: #ececec;
+    margin-right: 24px;
+    transition: color .3s ease;
+    text-transform: uppercase;
+}
+#step5 span.card-title {
+    color: #146969 !important;
+}
+
+#step5 .card {
+    border-radius: 0px;
+    /* height: auto; */
+    /* width: auto; */
+}
+
+#step5 .card .card-title {
+    min-height: 0px; 
+
+}
+#step5 .card-content h4, #step5 .card-content h5, #step5 .card-content h6  {
+    
+    color: black;
+}
+
+#step5 .card-content.white-text {
+    background-color: #e4e49f;
+    min-height: 30%;
+}
+
+#step5 .align-left {
+    text-align: center;
+    margin-left: 30px;
+    color: black;
+    display: flex;
+    align-items: baseline;
+    display: flex;
+   
+    justify-content: center;
+    font-family: lato;
+   
+}
+
+#step5 hr {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#step5 .avatar_step5{
+    height: auto;   
+    max-height: 354px;
+}
+
+#step5 .align-left h5{
+    margin-bottom: 0px;
+    margin-top: 12px;
+
+}
+
+#step5 .water_mark{
+    
+        position: absolute;
+        z-index: 1;
+        left: -97px;
+        top: -73px;
+        width: 222px;
+    
+}
+#step5 .water_mark_parent{
+    
+    position: relative;
+   
+
+}

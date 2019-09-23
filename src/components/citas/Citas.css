@@ -1,0 +1,44 @@
+
+#citas{
+    background-color: #f3f3f3;
+}
+
+
+    .row.espacioPack {
+        width: 85%;
+    }
+    .container.headcitas {
+        padding-top: 15px; 
+        margin-top: 0;
+    }
+    .titulocitas{
+        font-size: 2.5em;
+        font-weight: bolder;
+        font-family: lato;
+        color: #0f9b9b;
+        margin-top:0;
+    }
+    h5 {
+        font-size: 1.24rem;
+        font-family: lato;
+        font-weight: bold;
+    }
+    div#citas {
+        background-color: #f3f3f3;
+    }
+
+    .moreServices{
+        padding-bottom: 15px;
+
+    }
+
+    .moreServices a {
+        color: #c73a8c;
+        font-family: lato;
+        font-size: 1.3rem;
+        font-weight: bolder;
+    }
+    .moreServices a:hover {
+        text-decoration: underline;
+    }
+

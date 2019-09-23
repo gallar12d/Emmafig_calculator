@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'lato';
+}
+#div2{
+    margin-top: 20px;
+}
+.resetPading{
+    padding: 0px !important;
+}
+#iconFloat{
+    float: left;
+   
+}

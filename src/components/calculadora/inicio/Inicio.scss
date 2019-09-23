@@ -1,0 +1,62 @@
+#contenedor-inicio {
+  opacity: 0;
+  will-change: transform, opacity;
+  height: 100%;
+  overflow: hidden;
+  #inicio-imagenes {
+    margin-bottom: 0;
+    #avatar_emma {
+      position: relative;
+      margin-bottom: -5px;
+    }
+  }
+  #btn_begin {
+    margin-top: 15%;
+    cursor: pointer;
+    .cls-1 {
+      fill: #fff;
+    }
+    .cls-2,
+    .cls-3 {
+      fill: #0a999a;
+    }
+    .cls-3 {
+      font-size: 40px;
+      font-family: "Lato";
+      font-weight: 700;
+    }
+    .cls-4 {
+      letter-spacing: -0.01em;
+    }
+    .cls-5 {
+      letter-spacing: -0.02em;
+    }
+    &:hover{
+        .cls-2,
+        .cls-3{
+            fill: #c83b8d;
+        }
+    }
+  }
+}
+#avatar_emma {
+  width: 100%;
+}
+
+#logo_emmafig {
+  width: 100%;
+}
+.texto {
+  font-family: "Roboto";
+  font-size: 25px;
+  fill: #6f6f6e;
+}
+
+.encabezado {
+  color: #0f9b9b;
+}
+@media (max-width: 780px) {
+  #btn_begin {
+    width: 60%;
+  }
+}

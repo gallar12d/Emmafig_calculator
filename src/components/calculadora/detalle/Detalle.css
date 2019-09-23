@@ -1,0 +1,22 @@
+#contenedor-detalles{
+    padding-top: 15px;
+    margin-bottom: 0;
+}
+.btn_op{
+    min-width: 80px;
+    max-width: 150px;
+    cursor: pointer;
+}
+#titulo-detalle{
+    color: #0f9b9b;
+    font-size: 2.4em;
+    font-weight: bolder;
+    margin-bottom: 1rem; 
+}
+#contenedor-opciones{
+    margin-top: 1em;
+    padding-top: 15px;
+}
+
+
+

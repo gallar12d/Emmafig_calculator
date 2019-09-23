@@ -1,0 +1,52 @@
+.titulo {
+  font-weight: bold;
+}
+
+.parrafoTitulo {
+  font-weight: bold;
+}
+
+.parrafo {
+  color: gray;
+  font-size: 20px;
+}
+
+.formulario {
+  font-weight: bold;
+}
+
+.btnConsultar {
+  margin-right: 70%;
+}
+
+
+#Icono {
+  padding-top: 35%;
+  width: 24px;
+  height: 24px;
+  color: #0a999a;
+  
+}
+
+#button {
+  margin-top: 20px;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #f937ea;
+}
+
+#button:hover {
+  color: #ffffff;
+  background-color: #1883ba;
+}
+
+#input {
+  border-bottom: 1px solid rgb(8, 155, 147);
+}
+
+#contenedorPet{
+
+  font-weight: bold;
+}

@@ -1,0 +1,13 @@
+div#mini_steps {   
+    max-width: 1500px;    
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(7, 8vmin);
+}
+
+h6.left-align.step2_subtitle {
+    color: #0f9b9b;
+    font-family: lato;
+    font-weight: bolder;
+}
+

@@ -1,0 +1,72 @@
+
+.titulo{
+  
+    color: #F937EA;
+font-weight: bold;
+}
+
+
+.PreguntaQSR{
+  font-weight: bold;
+  
+  
+}
+
+.BancoP{
+
+  color: #F937EA;
+  
+  font-weight: bold;
+}
+
+
+.ContenPregunta{
+
+  margin-right: 30%;
+}
+.ContenRespuesta{
+
+  margin-left: 25%;
+}
+
+.Tituloacordeon{
+  margin-right: 7%;
+}
+
+.button{
+    margin-top: 50px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #F937EA;
+    border: 2px solid F9F8F9;
+  }
+  
+  .button:hover{
+    color: #ffffff;
+    background-color: #1883ba;
+  }
+
+.form input[type="text"]{
+background: image(pregunta)
+
+}
+
+.acordeonRespuesta{
+  margin-left: 20%;  
+  text-align: left;
+  font-weight: bold;
+  }
+
+  .cadena
+  {
+    
+    list-style-type: circle !important;
+  }
+
+  #botonAtras{
+    margin-right: 10%;
+  }
+  

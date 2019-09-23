@@ -1,0 +1,145 @@
+
+.resetPading{
+    padding: 0px !important;
+}
+.emp-profile{
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+.headTitle{
+    margin-bottom: 30px;
+}
+.resetBorder{
+    border: 1px ridge #ddd;
+}
+.profileNav{
+    width: auto;
+}
+.profile-img{
+    text-align: center;
+}
+.profile-img img{
+    width: 70%;
+    height: 100%;
+    clip-path: circle(100px at 50% 105px);}
+
+#textCapitalize{
+    text-transform: capitalize;
+}
+.profile-img .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -30%;
+    width: 70%;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    background: #0F9b9b;
+}
+.profile-img .file input {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+.profile-head h5{
+    color: #333;
+}
+
+.profile-edit-btn{
+    border: none;
+    border-radius: 1.5rem;
+    width: 70%;
+    padding: 2%;
+    font-weight: 600;
+    color: #6c757d;
+    cursor: pointer;
+}
+.proile-rating{
+    font-size: 12px;
+    color: #818182;
+    margin-top: 5%;
+}
+.proile-rating span{
+    color: #495057;
+    font-size: 15px;
+    font-weight: 600;
+}
+.profile-head .nav-tabs{
+    margin-bottom:5%;
+}
+.profile-head .nav-tabs .nav-link{
+    font-weight:600;
+    border: none;
+}
+.profile-head .nav-tabs .nav-link.active{
+    border: none;
+    border-bottom:2px solid #0062cc;
+}
+.profile-work{
+    padding: 14%;
+    margin-top: -15%;
+}
+.profile-work p{
+    font-size: 12px;
+    color: #818182;
+    font-weight: 600;
+    margin-top: 10%;
+}
+.profile-work a{
+    text-decoration: none;
+    color: #495057;
+    font-weight: 600;
+    font-size: 14px;
+}
+.profile-work ul{
+    list-style: none;
+}
+.profile-tab label{
+    font-weight: 600;
+}
+.profile-tab p{
+    font-weight: 600;
+    color: #0062cc;
+}
+.editTaps{
+    margin: 0px !important;
+}
+
+.tabs{
+    height: auto;
+    white-space: normal;
+    padding: 30px;
+    }
+    .tab{
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+    }
+    .tab-content{
+    height: 100%;
+    width: 100%;
+    background: #fcfcfc;
+    border:1px solid #f0f0f0;
+    }
+    .indicator{
+    display: none;
+    }
+.form-content{
+    padding: 30px;
+}
+.floatElement{
+    float: left;
+    padding-top: 5px;
+}
+#loader{
+    margin-top: 10px;
+    
+}
+#loaderEdit{
+    display: none;
+}
+

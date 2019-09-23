@@ -1,0 +1,136 @@
+.center{
+    color: #000;
+
+}
+
+.espaciado{
+  padding: 10px;
+}
+.espaciadoTestimonios{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.parallax img{
+    display: block;
+}
+
+.tituloTestimonials{
+    margin-top: 20px;
+    color: white;
+    font-family: Lato;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.subtituloTestimonials{
+    color: white;
+    font-family: Lato;
+    margin-bottom: 34px;
+    font-size: 1.54rem;
+}
+.espaciado2 .card .card-action:last-child {
+    border-radius: inherit;
+}
+.espaciado2 .card{
+    border-radius: 15px;
+    height: 195px;
+}
+
+p.text-green {
+    color: #0a999a !important;
+}
+.slick-current p.text-green {
+    color: white !important;
+}
+.slick-current .hoverable.card.panel_radius {
+    background-color: #c83b8d;
+}
+ img.avatar{
+    
+    border: 5px solid #0f9b9b;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 4px;
+}
+.textofijo {
+    height: 100px;
+}
+.slick-current img.avatar{
+    
+    border: 5px solid #c83b8d;
+    width: 50%;
+   
+    margin-left: 25%;
+    margin-top: 4px;
+}
+.espaciado2 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.parallax-container {
+    height: 100vh !important;
+    width: 100%;
+  }
+  h6.nombress {
+    margin-top: 60%;
+    font-size: 2.8vh;
+}
+h6.nombres {
+    font-size: 2.8vh;   
+    margin-top: 25%;
+    color: white !important;
+    font-family: lato;
+   
+
+}
+.slick-track {
+    margin-bottom: 0px;
+}
+
+
+.slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+    color: #c83b8d !important;
+}
+.slick-dots li button:before {
+    
+    font-size: 25px !important;
+    line-height: 80px !important;
+    opacity: 1 !important;
+    color: white !important;
+    
+}
+.slick-slide.slick-active.slick-center.slick-current {
+    position: relative;    
+    bottom: 17px;
+    
+}
+.slick-slide, .slick-slide *{ outline: none !important; }
+button.slick-arrow.slick-prev {
+    display: none !important;
+}
+button.slick-arrow.slick-next {
+    display: none !important;
+}
+
+
+
+
+h6.fecha {
+    font-family: lato;
+    
+    color: white;
+    font-size: 2.3vh;
+}
+
+h6.fecha2 {
+    font-family: lato;
+    
+    color: white;
+    font-size: 2vh;
+}
+
+.slick-dots{
+    bottom: -5px !important;
+}
+

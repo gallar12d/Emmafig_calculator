@@ -1,0 +1,98 @@
+.step4 .icon_input{
+    color: #0f9b9b;
+
+  align-items: center;
+  font-weight: bolder;
+  font-family: lato;
+}
+
+.step4 .col.s12.m4.img_step4 {
+  margin-top: 0%;
+    margin-bottom: -4% !important;
+    display: grid;
+    grid-template-columns: 40%;
+  }
+
+  .step4 svg.icon {
+    margin-top: 5px;
+}
+.step2[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
+  background-color: #c83b8d;
+  width: 24px;
+  height: 24px;
+  margin: 0px;
+}
+.step4[type="radio"]:not(:checked)+span:before, [type="radio"]:not(:checked)+span:after {
+  border: 2px solid #0f9b9b;
+}
+
+.step4 .icon_input {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.step4 .floting {
+  padding-right: 6px;
+}
+
+.step4 svg.caret {
+  display: initial;
+}
+
+.step4 .row.row_turns {
+  background: #e9eaea;
+  max-height: 167px;
+  min-height: 45px;
+  height: auto;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.step4 [type="radio"]:not(:checked)+span:before, [type="radio"]:not(:checked)+span:after {
+  border: 2px solid #0f9b9b;
+}
+
+.step4 .col_turns span  {
+  font-family: lato;
+  font-weight: bolder;
+  color: black;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.step4 .row.row_turns::-webkit-scrollbar {
+  width: 6px;
+  background-color:  rgb(168, 169, 169);
+  height: 15px;
+}
+.step4 .row.row_turns::-webkit-scrollbar-thumb {
+  background-color: #0f9b9b;
+}
+.step4 .row.row_turns{
+animation: shake 1s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+.step4 .floting h6{
+  color: black
+}
+
+.step4 #modal_cita svg.caret {
+  display: initial;
+}
+.step4 #modal_cita input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+  
+  border-bottom: 1px solid #0f9b9b;
+}
+
+.step4 #modal_cita input:not([type]):disabled, input:not([type])[readonly="readonly"], input[type=text]:not(.browser-default):disabled, input[type=text]:not(.browser-default)[readonly="readonly"], input[type=password]:not(.browser-default):disabled, input[type=password]:not(.browser-default)[readonly="readonly"], input[type=email]:not(.browser-default):disabled, input[type=email]:not(.browser-default)[readonly="readonly"], input[type=url]:not(.browser-default):disabled, input[type=url]:not(.browser-default)[readonly="readonly"], input[type=time]:not(.browser-default):disabled, input[type=time]:not(.browser-default)[readonly="readonly"], input[type=date]:not(.browser-default):disabled, input[type=date]:not(.browser-default)[readonly="readonly"], input[type=datetime]:not(.browser-default):disabled, input[type=datetime]:not(.browser-default)[readonly="readonly"], input[type=datetime-local]:not(.browser-default):disabled, input[type=datetime-local]:not(.browser-default)[readonly="readonly"], input[type=tel]:not(.browser-default):disabled, input[type=tel]:not(.browser-default)[readonly="readonly"], input[type=number]:not(.browser-default):disabled, input[type=number]:not(.browser-default)[readonly="readonly"], input[type=search]:not(.browser-default):disabled, input[type=search]:not(.browser-default)[readonly="readonly"], textarea.materialize-textarea:disabled, textarea.materialize-textarea[readonly="readonly"] {
+  color: black;
+  border-bottom: 1px solid #0f9b9b;
+}
+.step4 #modal_cita  .input-field>label {
+  color: #000000;
+ 
+}
+
+.step4 #modal_cita button.btn.modal-close {
+  border-radius: 7px;
+}

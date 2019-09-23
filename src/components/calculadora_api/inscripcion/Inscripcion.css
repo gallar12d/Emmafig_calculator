@@ -1,0 +1,34 @@
+#btn_ok{
+    max-width: 105px;
+    width: 40%;
+    cursor: pointer;
+}
+
+#contenedor-inscripcion{
+    margin: auto;
+    width: 98%;
+    max-width: 1500px;    
+    display: grid;
+    grid-template-columns: 15% 20% auto 45% 15%;
+    grid-template-rows: 10% 40% 40% 10%; 
+}
+#contenedor-ok{
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+}
+#contenedor-titulo-ins{
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    align-self: center;
+}
+
+#titulo-ins{
+    color: #000000;
+    font-size: 2.4vw;
+    font-weight: bolder;
+    margin-bottom: 0.3rem; 
+}
+
+
+
+

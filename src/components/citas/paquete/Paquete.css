@@ -1,0 +1,107 @@
+#citas .card .card-title {
+    min-height: 2em;
+    font-size: 24px;
+    font-weight: 300;    
+    border-radius: 30px 30px 0px 0px;
+
+    width: 100%;
+    
+}
+#citas .card .card-content {
+    padding: 0px ;
+   
+}
+
+#citas .card{
+    background: rgba(33,151,153,1);
+background: -moz-linear-gradient(top, rgba(33,151,153,1) 0%, rgba(33,151,153,1) 1%, rgba(18,100,100,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(33,151,153,1)), color-stop(1%, rgba(33,151,153,1)), color-stop(100%, rgba(18,100,100,1)));
+background: -webkit-linear-gradient(top, rgba(33,151,153,1) 0%, rgba(33,151,153,1) 1%, rgba(18,100,100,1) 100%);
+background: -o-linear-gradient(top, rgba(33,151,153,1) 0%, rgba(33,151,153,1) 1%, rgba(18,100,100,1) 100%);
+background: -ms-linear-gradient(top, rgba(33,151,153,1) 0%, rgba(33,151,153,1) 1%, rgba(18,100,100,1) 100%);
+background: linear-gradient(to bottom, rgba(33,151,153,1) 0%, rgba(33,151,153,1) 1%, rgba(18,100,100,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#219799', endColorstr='#126464', GradientType=0 );
+}
+#citas .card {
+    border-radius: 30px;
+    height: auto;
+    width: auto;
+    }
+    h4.tituloServicio {
+        font-size: 1.5rem;
+        /* vertical-align: middle; */
+        /* white-space: pre-wrap; */
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    #citas .card-content.white-text {
+        background-color: #ececec;
+        min-height: 30%;
+    }
+    #citas .card-content h4 {
+        color: #c73a8c;
+        font-family: lato;
+        font-weight: bolder;
+        font-size: 2rem;        
+        padding-top: 0%;
+        margin-bottom: 0px;
+    }
+    #citas .card-content p {
+        color: black !important;
+        font-family: lato;
+        font-weight: bolder;       
+        padding-bottom: 5%;
+
+    }
+
+    #citas .card-action button{
+        width: 80%;
+        margin-bottom: 3%;
+        margin-top: 0%;
+        border-radius: 7px;
+        background-color: #ececec;
+        color: #c73a8c;
+        font-family: lato;
+        font-weight: bolder;
+    }
+
+    #citas .card-action button:hover{
+       
+        color: #177475;
+      
+    }
+
+
+    #citas .card:hover .card-action{
+        background-color: #c73a8c;
+    }
+    #citas .card .card-action:last-child {
+        /* border-radius: inherit; */
+        border-radius: 0px 0px 30px 30px;
+    }
+    #citas .linet {
+        text-decoration: line-through;
+        color: #717070;
+        padding-top: 4px;
+        margin-bottom: -23px;
+    }
+    #citas ul:not(.browser-default)>li {
+        list-style-type: initial;
+    }
+
+    .recomendations li{
+        margin-left: 18px;
+
+    }
+    #citas div.widthmodal{
+        width: 80%;
+    }
+
+    #citas div.widthmodal .btn-flat:focus, .btn-flat:hover {
+        background-color: #c73a8c;
+       
+    }
+
+   
+
