@@ -78,7 +78,7 @@ getFechainicialTarea() {
                 <div className="row">
                     <div className="col s10 m8 l6 offset-s1 offset-m2 offset-l3 encabezado">
                         <h1 id="titulo-cal" className="flow-text">Calcula tu riesgo</h1>
-                        <h6 id="subtitulo-cal" className="center-align ">Responde a las siguientes preguntas y obten un resultado verdadero</h6>
+                        <h6 id="subtitulo-cal" className="center-align ">Responda todas las preguntas para descubrir si usted tiene alto riesgo de contraer el Virus de Papiloma Humano o desarrollar Cáncer de Cuello Uterino</h6>
                     </div>
                 </div>
                 <div id="inicio-imagenes" className="row">
